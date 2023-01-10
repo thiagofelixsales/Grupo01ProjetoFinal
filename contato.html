@@ -5,8 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-</head>
-<body>
     
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+        
+</head>
+
+<body>
+
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="oid" value="00DDn000007pFp8">
+    <input type=hidden name="retURL" value="http://www.google.com">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
+    <!--  comentário dessas linhas se quiser testar no modo de depuração.         -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail"                                  -->
+    <!--  value="fabcosmetics.2023@gmail.com">                                    -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <label for="first_name">Primeiro Nome</label>
+    <br>
+    <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+    <br>
+    
+    <label for="last_name">Sobrenome</label><br><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+    <br>
+    
+    <label for="phone">Telefone</label><br><input  id="phone" maxlength="40" name="phone" size="20" type="text" />
+    <br>
+    
+    <label for="email">Email</label><br><input  id="email" maxlength="80" name="email" size="20" type="text" />
+    <br>
+    <br>
+    Estado:<select  id="00NDn00000Nf1kl" name="00NDn00000Nf1kl" title="Estado">
+    <br>
+    <option value="">-- Nenhum --</option><option value="AC">AC</option>
+    <option value="AL">AL</option>
+    <option value="AP">AP</option>
+    <option value="AM">AM</option>
+    <option value="BA">BA</option>
+    <option value="CE">CE</option>
+    <option value="DF">DF</option>
+    <option value="ES">ES</option>
+    <option value="GO">GO</option>
+    <option value="MA">MA</option>
+    <option value="MT">MT</option>
+    <option value="MS">MS</option>
+    <option value="MG">MG</option>
+    <option value="PA">PA</option>
+    <option value="PB">PB</option>
+    <option value="PR">PR</option>
+    <option value="PE">PE</option>
+    <option value="PI">PI</option>
+    <option value="RJ">RJ</option>
+    <option value="RN">RN</option>
+    <option value="RS">RS</option>
+    <option value="RO">RO</option>
+    <option value="RR">RR</option>
+    <option value="SC">SC</option>
+    <option value="SP">SP</option>
+    <option value="SE">SE</option>
+    <option value="TO">TO</option>
+    </select>
+    <br>
+    <br>
+    <label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" />
+    <br>
+    <br>
+    <label for="msg">Mensagem</label><br>
+    <br>
+	<textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+    <br>
+    
+    <input type="submit" name="submit">
+    
+    </form>
 </body>
 </html>
+    
+    
+>>>>>>> Stashed changes
